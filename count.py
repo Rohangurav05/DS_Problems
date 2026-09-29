@@ -4,7 +4,7 @@ def count_characters(text):
     digits = 0
     special_chars = 0
     
-    # Define vowels for easy lookup
+    
     vowel_set = "aeiouAEIOU"
     
     for char in text:
@@ -16,12 +16,10 @@ def count_characters(text):
             else:
                 consonants += 1
         else:
-            # Captures spaces, punctuation, symbols, etc.
             special_chars += 1
             
     return vowels, consonants, digits, special_chars
 
-# Example usage
 input_string = "Hello World! Welcome to Python 2026. #Code"
 v, c, d, s = count_characters(input_string)
 
