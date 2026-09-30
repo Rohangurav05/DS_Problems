@@ -4,6 +4,10 @@ def count_characters(text):
     digits = 0
     special_chars = 0
     
+<<<<<<< HEAD
+=======
+    
+>>>>>>> add766ae0aba7201c2c31a6ae2b40e1bcab771be
     vowel_set = "aeiouAEIOU"
     
     for char in text:
@@ -15,7 +19,10 @@ def count_characters(text):
             else:
                 consonants += 1
         else:
+<<<<<<< HEAD
            
+=======
+>>>>>>> add766ae0aba7201c2c31a6ae2b40e1bcab771be
             special_chars += 1
             
     return vowels, consonants, digits, special_chars
