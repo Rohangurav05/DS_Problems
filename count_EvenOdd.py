@@ -4,9 +4,9 @@ countodd=0
 counteven=0
 
 for i in arr :
-    if i%2==0 :
+    if i%2==0 : #for the even number
         counteven=counteven+1
-    if i%2!=0 :
+    if i%2!=0 :#for the odd number
         countodd=countodd+1
 print("Even numbers are : ",counteven) 
 print("Odd numbers are : ",countodd)   
