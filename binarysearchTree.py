@@ -48,6 +48,7 @@ class BST:
 
 btree = BST()
 
+
 btree.insert(Node(10))
 btree.insert(Node(5))
 btree.insert(Node(15))
