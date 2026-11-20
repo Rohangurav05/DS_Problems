@@ -48,11 +48,18 @@ class BST:
 
 btree = BST()
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b16fc581bf8da03f361d625a22c6e5cd254969c0
 btree.insert(Node(10))
 btree.insert(Node(5))
 btree.insert(Node(15))
 btree.insert(Node(45))
 btree.insert(Node(25))
 
+<<<<<<< HEAD
 btree.inorder(btree.root)
+=======
+btree.inorder(btree.root)
+>>>>>>> b16fc581bf8da03f361d625a22c6e5cd254969c0
